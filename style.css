@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #333;
+  color: #ddd;
+}
+
+#ul {
+  padding: 40px;
+  border: 10px solid transparent;
+  list-style-type: none;
+  text-align: center;
+}
+
+tr {
+  background: rgb(39, 190, 39);
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.highlighted {
+  background: #F00;
+}
+
+.form {
+  padding: 10px;
+  line-height: 24px;
+  border: 15px solid transparent;
+}
+
+.buttonsrr {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.buttons button + button {
+  margin-top: 15px;
+}
+
+.arrowScroll {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.btr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btrdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.ulbtr {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.slides {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slides img + img {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.eventargslider .currentImg {
+  width: 50%;
+  padding: 250px 0;
+  margin: 0 auto;
+  background: url(images/img2-thumb.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+body {
+  padding: 20px 0 0 20px;
+  cursor: pointer;
+}
+
+#field {
+  overflow: hidden;
+  width: 200px;
+  height: 150px;
+  border-top: 10px solid black;
+  border-right: 10px solid gray;
+  border-bottom: 10px solid gray;
+  border-left: 10px solid black;
+  background-color: #00FF00;
+  font: 10px/1.2 monospace;
+}
+
+.triangle-right {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 20px solid red;
+  text-indent: -20px;
+  font: 12px/1 monospace;
+}
+
+#field1 {
+  width: 200px;
+  height: 150px;
+  border: 10px solid black;
+  background-color: #00FF00;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#ball {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  transition: all 1s;
+}
+
+.hidden {
+  display: none;
+}
+
+.toggleTest .li {
+  display: none;
+}
+
+.lishow {
+  display: block;
+}
+
+.lero {
+  width: 75%;
+  padding: 125px 0;
+  margin: 0 auto;
+  text-align: center;
+  background: url('images/lero.gif') no-repeat;
+  background-position: center center;
+}
+
+.lero + .lero {
+  margin-top: 25px;
+}
