@@ -20,3 +20,7 @@ body {
 .lero + .lero {
   margin-top: 25px;
 }
+
+#button {
+  width: 15%;
+}
