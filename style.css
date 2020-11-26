@@ -1,3 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #333;
+  color: #ddd;
+  padding: 15px;
+}
+
 .lero {
   width: 75%;
   padding: 125px 0;
