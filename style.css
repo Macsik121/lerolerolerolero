@@ -15,9 +15,6 @@ body {
   text-align: center;
   background: url('lero.gif') no-repeat;
   background-position: center center;
-}
-
-.lero + .lero {
   margin-top: 25px;
 }
 
