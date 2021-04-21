@@ -14,7 +14,7 @@ body {
   text-align: center;
   background: url('lero.gif') no-repeat;
   background-position: center center;
-  font-size: 16px + .8rem;
+  font-size: calc(16px + .8rem);
 }
 
 #button {
